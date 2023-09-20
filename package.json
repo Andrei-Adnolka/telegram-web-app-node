@@ -1,0 +1,21 @@
+{
+  "name": "client_bot",
+  "version": "0.0.1",
+  "main": "index.js",
+  "repository": "b",
+  "author": "Andrei Adnolka",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "node-telegram-bot-api": "^0.63.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "scripts": {
+    "dev": "nodemon index.js",
+    "start": "node index.js"
+  }
+}
